@@ -1,9 +1,9 @@
 ﻿# secure-server
 Creating an SSL server using Node.js
 
-1.Create the server.js file
+ 1.Create the server.js file
 
-2.Create the node_modules and json packages
+ 2.Create the node_modules and json packages
 
           npm init -y        
 3. Create the express package using 
