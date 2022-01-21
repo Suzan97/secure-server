@@ -8,13 +8,16 @@ Creating an SSL server using Node.js
           npm init -y        
 3. Create the express package using 
 
-          npm install express --save" on the terminal
+          npm install express --save
 
 4. Go to the server.js folder write your code for the server listener , certificate and key
 5.  Create a cert folder  and enter it 
+
           cd cert
 
 6. In order to generate your secure key and certificate use the following codes
+
+
           openssl genrsa -out key.pem
           openssl req -new -key key.pem -out csr.pem
           openssl x509 -req -days 365 -in csr.pem -signkey key.pem -out cert.pem
