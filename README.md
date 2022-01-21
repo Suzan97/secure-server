@@ -23,5 +23,5 @@ Creating an SSL server using Node.js
           openssl req -new -key key.pem -out csr.pem
           openssl x509 -req -days 365 -in csr.pem -signkey key.pem -out cert.pem
 
-7.Run the code  using https://127.0.0.1:8000
+7.Run the code  using npm server.js ensure it is https://127.0.0.1:8000
 
